@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E COMMERCE PRODUCT PAGE </title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<section id="header" class="header">
+<a href="cart.html" class="logo"><i class="fas fa-female"></i> cosmetics</a>
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+     <a href="contact.html">contact</a>
+</nav>
+
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="cart.html" class="fas fa-shopping-cart"></a>
+</div>
+</section>
+<section id="productdetails" class="section-p1">
+<div class="single-pro-image">
+<img src="C:\Users\sunil\OneDrive\Desktop\cosmo\feature1.jpeg" width="100%" id="MainImg">
+<div class="small-img-group">
+<div class="small-img-col">
+<img src="C:\Users\sunil\OneDrive\Desktop\cosmo\feature1.jpeg" width="100%" class="small-img"></div>
+<div class="small-img-col">
+<img src="C:\Users\sunil\OneDrive\Desktop\cosmo\feature1.1.jpg" width="100%" class="small-img"></div>
+<div class="small-img-col">
+<img src="C:\Users\sunil\OneDrive\Desktop\cosmo\feature1.2.jpg" width="100%" class="small-img">
+</div>
+<div class="small-img-col">
+<img src="C:\Users\sunil\OneDrive\Desktop\cosmo\feature1.3.jpg" width="100%" class="small-img">
+</div>
+</div>
+</div>
+<div class="single-pro-details">
+<h6>SUGAR Cosmetics Rage For Coverage Foundation - 40 Breve | Medium Beige, Warm Undertone - 25 ml - Full Coverage, Ultra Creamy Longlasting Foundation Luminous Finish</h6>
+<h2>₹599</h2>
+<input type="number" value="1">
+<button class="normal"> ADD TO CART </button>
+<h4>Product details</h4>
+<span>Looking for the perfect foundation that looks like skin and feels like a dream? Meet SUGAR Rage For Coverage Foundation that will empower you to achieve a long-lasting, flawless base every time.
+
+SUGAR Rage For Coverage Foundation is an ultra-performing, high coverage foundation whose rich, creamy texture blends into your skin beautifully and delivers a seamless matte finish that lasts up to 24 hours. Its sebum-absorbing and skin-perfecting formula minimizes the appearance of fine lines, wrinkles and keeps skin shine-free. Enriched with skin-rejuvenating Portulaca Vita extracts from purslane plant, it soothes, revives and brightens your skin. Suitable for all skin types, Rage For Coverage Foundation effectively controls oil and transforms your complexion to naturally luminous. The formula is non-irritating, oil-free and made using skin calming ingredients that work incredibly well to conceal redness, blemishes and hyperpigmentation.</span>
+</div>
+</section>
+<script>
+var MainImg=document.getElementById("MainImg");
+var smallimg=document.getElementsByClassName("small-img");
+smallimg[0].onclick = function(){
+MainImg.src=smallimg[0].src;
+}
+smallimg[1].onclick = function(){
+MainImg.src=smallimg[1].src;
+}
+smallimg[2].onclick = function(){
+MainImg.src=smallimg[2].src;
+}
+smallimg[3].onclick = function(){
+MainImg.src=smallimg[3].src;
+}
+</script>
+<script src="script.js"></script>
+</body>
+
+</html>
